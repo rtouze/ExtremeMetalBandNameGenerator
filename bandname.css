@@ -1,0 +1,124 @@
+html {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+body {  
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+button#generate {   
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 10px 15px; 
+    transition: color 0.5s , background 0.5s, padding 1s, font-size 1s;
+    cursor: pointer;
+}
+
+button#generate:hover {   
+    background-color: white;
+    color: black;
+}
+
+button#generate:active {   
+    background-color: red;
+    padding: 50px 100px;
+    font-size: 32px;
+}
+
+@font-face{
+    font-family: "Bogarts Metal";
+    src: url("/font/Bogarts Metal.woff");
+}
+@font-face{
+    font-family: "Dark Metal Institute";
+    src: url("/font/Dark Metal Institute.otf");
+}
+@font-face{
+    font-family: "DeathtoMetal";
+    src: url("/font/DeathtoMetal.ttf");
+}
+@font-face{
+    font-family: "Horrors Metal";
+    src: url("/font/Horrors Metal.ttf");
+}
+@font-face{
+    font-family: "METAC___";
+    src: url("/font/METAC___.TTF");
+}
+@font-face{
+    font-family: "MetalChakra";
+    src: url("/font/MetalChakra.ttf");
+}
+@font-face{
+    font-family: "MetalClash";
+    src: url("/font/MetalClash.ttf");
+}
+@font-face{
+    font-family: "Metal-Demo";
+    src: url("/font/Metal-Demo.otf");
+}
+@font-face{
+    font-family: "MetalEvent";
+    src: url("/font/MetalEvent.ttf");
+}
+@font-face{
+    font-family: "MetalMacabre";
+    src: url("/font/MetalMacabre.ttf");
+}
+@font-face{
+    font-family: "MetalMania-Regular";
+    src: url("/font/MetalMania-Regular.ttf");
+}
+@font-face{
+    font-family: "MetalShard";
+    src: url("/font/MetalShard.ttf");
+}
+@font-face{
+    font-family: "MetalShow";
+    src: url("/font/MetalShow.ttf");
+}
+@font-face{
+    font-family: "MetalShred";
+    src: url("/font/MetalShred.ttf");
+}
+@font-face{
+    font-family: "MetalWitch";
+    src: url("/font/MetalWitch.ttf");
+}
+@font-face{
+    font-family: "sketchvetica";
+    src: url("/font/sketchvetica.ttf");
+}
+@font-face{
+    font-family: "XXII Ultimate-Black-Metal";
+    src: url("/font/XXII Ultimate-Black-Metal.ttf");
+}
+
+div#band-show {
+    display: none;
+}
+div#band-show img {
+    max-height: 500px;
+    filter: grayscale();
+}
+
+footer {
+    font-size: .9rem;
+    margin-top: 2rem;
+}
+
+a {
+    color: white;
+}
+
